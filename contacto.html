@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Formulario de contacto de Alto's Game para solicitar información sobre servicios y eventos gamer.">
+    <title>Contacto | Alto's Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-dark fixed-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="Imagenes/joystick.svg" alt="Logotipo de Alto's Game" width="35" height="24"
+                    class="d-inline-block align-text-top">
+                Alto's Game
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Mostrar u ocultar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Servicios</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="servicio1.html">Servicio 1</a></li>
+                            <li><a class="dropdown-item" href="servicio2.html">Servicio 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="otros-servicios.html">Otros servicios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <span class="navbar-text text-white">
+                    <a href="tel:+525555555555" class="text-decoration-none">+52 55-5555-5555</a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- Final de Navbar -->
+
+    <main class="mt-5 pt-2">
+        <!-- Encabezado -->
+        <header class="bg-primary text-white py-5">
+            <div class="container py-4 text-center">
+                <span class="badge rounded-pill text-bg-light text-primary mb-3">Estamos para ayudarte</span>
+                <h1 class="display-3 fw-bold">Contacto</h1>
+                <p class="lead col-lg-8 mx-auto mb-0">
+                    Cuéntanos qué experiencia buscas y nuestro equipo se pondrá en contacto contigo.
+                </p>
+            </div>
+        </header>
+        <!-- Final del encabezado -->
+
+        <!-- Datos y formulario -->
+        <section class="container my-5">
+            <div class="row g-5 align-items-start">
+                <!-- Información de contacto -->
+                <aside class="col-12 col-lg-4">
+                    <span class="badge text-bg-primary mb-2">Alto's Game</span>
+                    <h2 class="display-6">Hablemos de tu próxima experiencia</h2>
+                    <p class="text-secondary">
+                        Puedes utilizar el formulario o comunicarte mediante alguno de nuestros canales de atención.
+                    </p>
+
+                    <div class="list-group shadow-sm mb-4">
+                        <a href="tel:+525555555555" class="list-group-item list-group-item-action py-3">
+                            <div class="d-flex w-100 justify-content-between align-items-center">
+                                <h3 class="h6 mb-1">Teléfono</h3>
+                                <span class="badge text-bg-primary">Llamar</span>
+                            </div>
+                            <p class="mb-0 text-secondary">+52 55-5555-5555</p>
+                        </a>
+                        <a href="mailto:contacto@altosgame.com"
+                            class="list-group-item list-group-item-action py-3">
+                            <div class="d-flex w-100 justify-content-between align-items-center">
+                                <h3 class="h6 mb-1">Correo electrónico</h3>
+                                <span class="badge text-bg-primary">Escribir</span>
+                            </div>
+                            <p class="mb-0 text-secondary">contacto@altosgame.com</p>
+                        </a>
+                        <div class="list-group-item py-3">
+                            <h3 class="h6 mb-1">Horario de atención</h3>
+                            <p class="mb-0 text-secondary">Lunes a sábado, de 10:00 a 19:00 horas</p>
+                        </div>
+                    </div>
+
+                    <div class="alert alert-info" role="alert">
+                        <h3 class="alert-heading h6">Tiempo de respuesta</h3>
+                        <p class="mb-0">Respondemos normalmente en un plazo máximo de 24 horas hábiles.</p>
+                    </div>
+                </aside>
+                <!-- Final de información de contacto -->
+
+                <!-- Formulario -->
+                <div class="col-12 col-lg-8">
+                    <div class="card border-0 shadow">
+                        <div class="card-header text-bg-dark p-4">
+                            <h2 class="h3 mb-1">Formulario de consulta</h2>
+                            <p class="mb-0">Los campos marcados con * son obligatorios.</p>
+                        </div>
+
+                        <div class="card-body p-4 p-md-5">
+                            <!-- Sustituye # por la ruta de tu backend cuando esté disponible. -->
+                            <form action="https://formspree.io/f/moevnrwj" method="POST">
+                                <fieldset>
+                                    <legend class="h5 border-bottom pb-2 mb-4">Datos personales</legend>
+
+                                    <div class="row g-3">
+                                        <div class="col-12 col-md-6">
+                                            <label for="nombre" class="form-label">Nombre *</label>
+                                            <input type="text" class="form-control" id="nombre" name="nombre"
+                                                autocomplete="given-name" minlength="2" maxlength="50" required>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <label for="apellidos" class="form-label">Apellidos *</label>
+                                            <input type="text" class="form-control" id="apellidos" name="apellidos"
+                                                autocomplete="family-name" minlength="2" maxlength="80" required>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <label for="correo" class="form-label">Correo electrónico *</label>
+                                            <input type="email" class="form-control" id="correo" name="correo"
+                                                autocomplete="email" placeholder="nombre@correo.com" required>
+                                            <div class="form-text">Utilizaremos este correo para responder tu consulta.</div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <label for="telefono" class="form-label">Teléfono *</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text">+52</span>
+                                                <input type="tel" class="form-control" id="telefono" name="telefono"
+                                                    autocomplete="tel-national" inputmode="numeric"
+                                                    pattern="[0-9]{10}" maxlength="10" placeholder="5512345678"
+                                                    aria-describedby="ayudaTelefono" required>
+                                            </div>
+                                            <div id="ayudaTelefono" class="form-text">Ingresa 10 números sin espacios.</div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="mt-5">
+                                    <legend class="h5 border-bottom pb-2 mb-4">Información de la consulta</legend>
+
+                                    <div class="row g-3">
+                                        <div class="col-12 col-md-6">
+                                            <label for="servicio" class="form-label">Servicio de interés *</label>
+                                            <select class="form-select" id="servicio" name="servicio" required>
+                                                <option value="" selected disabled>Selecciona una opción</option>
+                                                <option value="servicio-1">Servicio 1: renta de estaciones</option>
+                                                <option value="servicio-2">Servicio 2: torneos y eventos</option>
+                                                <option value="talleres">Talleres para principiantes</option>
+                                                <option value="asesoria">Asesoría personalizada</option>
+                                                <option value="club">Club Alto's Game</option>
+                                                <option value="otro">Otro servicio</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <label for="asunto" class="form-label">Asunto *</label>
+                                            <input type="text" class="form-control" id="asunto" name="asunto"
+                                                minlength="5" maxlength="100" placeholder="Motivo de tu consulta" required>
+                                        </div>
+
+                                        <div class="col-12 col-md-4">
+                                            <label for="participantes" class="form-label">Participantes</label>
+                                            <input type="number" class="form-control" id="participantes"
+                                                name="participantes" min="1" max="100" placeholder="Ejemplo: 8">
+                                        </div>
+
+                                        <div class="col-12 col-md-4">
+                                            <label for="fecha" class="form-label">Fecha aproximada</label>
+                                            <input type="date" class="form-control" id="fecha" name="fecha">
+                                        </div>
+
+                                        <div class="col-12 col-md-4">
+                                            <label for="presupuesto" class="form-label">Presupuesto aproximado</label>
+                                            <select class="form-select" id="presupuesto" name="presupuesto">
+                                                <option value="" selected>Sin definir</option>
+                                                <option value="menos-1000">Menos de $1,000</option>
+                                                <option value="1000-3000">De $1,000 a $3,000</option>
+                                                <option value="3001-5000">De $3,001 a $5,000</option>
+                                                <option value="mas-5000">Más de $5,000</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <span class="form-label d-block">Medio de contacto preferido *</span>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="medioContacto"
+                                                    id="contactoCorreo" value="correo" required>
+                                                <label class="form-check-label" for="contactoCorreo">Correo</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="medioContacto"
+                                                    id="contactoTelefono" value="telefono">
+                                                <label class="form-check-label" for="contactoTelefono">Teléfono</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="medioContacto"
+                                                    id="contactoWhatsApp" value="whatsapp">
+                                                <label class="form-check-label" for="contactoWhatsApp">WhatsApp</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="mensaje" class="form-label">Cuéntanos qué necesitas *</label>
+                                            <textarea class="form-control" id="mensaje" name="mensaje" rows="6"
+                                                minlength="20" maxlength="1000"
+                                                placeholder="Describe tu consulta, evento o servicio de interés..."
+                                                required></textarea>
+                                            <div class="form-text">Escribe entre 20 y 1,000 caracteres.</div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="privacidad"
+                                                    name="privacidad" value="aceptado" required>
+                                                <label class="form-check-label" for="privacidad">
+                                                    Acepto que mis datos sean utilizados para atender esta consulta. *
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                                <button type="reset" class="btn btn-outline-secondary btn-lg">
+                                                    Limpiar formulario
+                                                </button>
+                                                <button type="submit" class="btn btn-primary btn-lg">
+                                                    Enviar consulta
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Final del formulario -->
+            </div>
+        </section>
+        <!-- Final de datos y formulario -->
+
+        <!-- Preguntas frecuentes -->
+        <section class="container-fluid bg-body-tertiary py-5">
+            <div class="container">
+                <div class="row g-5 align-items-start">
+                    <div class="col-12 col-lg-5">
+                        <span class="badge text-bg-dark mb-2">Antes de enviar</span>
+                        <h2 class="display-6">Preguntas frecuentes</h2>
+                        <p class="lead text-secondary">
+                            Algunas respuestas rápidas que pueden ayudarte a preparar mejor tu consulta.
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-lg-7">
+                        <div class="accordion shadow-sm" id="acordeonContacto">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#preguntaUno" aria-expanded="true"
+                                        aria-controls="preguntaUno">
+                                        ¿El formulario envía los datos automáticamente?
+                                    </button>
+                                </h3>
+                                <div id="preguntaUno" class="accordion-collapse collapse show"
+                                    data-bs-parent="#acordeonContacto">
+                                    <div class="accordion-body">
+                                        La estructura del formulario está lista, pero debe conectarse a un backend para
+                                        guardar o enviar la información recibida.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#preguntaDos"
+                                        aria-expanded="false" aria-controls="preguntaDos">
+                                        ¿Es obligatorio conocer la fecha y el presupuesto?
+                                    </button>
+                                </h3>
+                                <div id="preguntaDos" class="accordion-collapse collapse"
+                                    data-bs-parent="#acordeonContacto">
+                                    <div class="accordion-body">
+                                        No. Ambos datos son opcionales y pueden definirse después de recibir asesoría.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#preguntaTres"
+                                        aria-expanded="false" aria-controls="preguntaTres">
+                                        ¿Puedo solicitar un servicio personalizado?
+                                    </button>
+                                </h3>
+                                <div id="preguntaTres" class="accordion-collapse collapse"
+                                    data-bs-parent="#acordeonContacto">
+                                    <div class="accordion-body">
+                                        Sí. Selecciona “Otro servicio” y explica tu idea en el campo del mensaje.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Final de preguntas frecuentes -->
+    </main>
+
+    <!-- Footer -->
+    <div class="container">
+        <footer
+            class="d-flex flex-column flex-md-row flex-wrap justify-content-between align-items-center py-4 my-4 border-top">
+            <div class="d-flex align-items-center mb-3 mb-md-0">
+                <img src="Imagenes/joystick.svg" alt="" width="32" height="32" class="me-2">
+                <span class="text-body-secondary">© 2026 Alto's Game</span>
+            </div>
+            <nav aria-label="Enlaces del pie de página">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a href="index.html"
+                            class="nav-link px-2 text-body-secondary">Inicio</a></li>
+                    <li class="nav-item"><a href="nosotros.html"
+                            class="nav-link px-2 text-body-secondary">Nosotros</a></li>
+                    <li class="nav-item"><a href="servicio1.html"
+                            class="nav-link px-2 text-body-secondary">Servicios</a></li>
+                    <li class="nav-item"><a href="contacto.html"
+                            class="nav-link px-2 text-body-secondary">Contacto</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+    <!-- Final de Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
